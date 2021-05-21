@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background: #2b90d9;
+    padding: 25px;
+
+}
+
+.navbar_lien {
+
+    /*Ca enlève la barre en dessous*/
+    text-decoration: none;
+    color: #282c37;
+
+    /*Propriétée qui met tout en majuscule*/
+    text-transform: uppercase;
+
+}
+
+.navbar_contenu {
+    /*Place la marge automatiquement*/
+    margin: auto;
+    width: 75%;
+
+}
+
+.navbar_contenu ul li {
+
+    padding: 10px;
+    list-style-type: none; /*Enlever les points*/
+    /*Affiche à la suite*/
+    display: inline;
+}
+
+.container {
+
+    margin: auto;
+    width: 70%;
+
+}
+
+.container ul li {
+
+    list-style-type: none;
+}
+
+
+.contenu_moi {
+
+    display: block;
+}
+
+.contenu_photo {
+
+    display: inline-block;
+
+}
+
+
+.contenu_biographie {
+
+    display: inline-block;
+    position: absolute;
+    padding-left: 50px;
+    width: 500px;
+    text-align: justify;
+}
+
+.contenu_biographie h2 {
+
+    color: #2b90d9;
+}
+
+
+.contenu_biographie_cv {
+
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #d9e1e8;
+    padding: 5px;
+    color: #2b90d9;
+}

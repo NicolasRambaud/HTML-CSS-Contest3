@@ -5,24 +5,44 @@
 <head>
     <title>Portfolio Nicolas Rambaud</title>
     <meta charset="utf-8">
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Mon Portofolio</h1>
+<header>
+    <nav class="navbar">
+        <div class="navbar_contenu">
+            <ul>
+                <li><a class="navbar_lien" href="index.html"><strong>Projets Réalisés</strong></a></li>
+                <li><a class="navbar_lien" href="me.html"><strong>[ Moi ]</strong></a></li>
+                <li><a class="navbar_lien" href="contactme.html"><strong>Me Contacter</strong></a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <nav>
-            <div class="navbar">
-                <a href="#">Projets Réalisés</a>
-                <a href="me.html">Moi</a>
-                <a href="contact.html">Me Contacter</a>
-            </div>
-        </nav>
-        
-    </header>
+</header>
+<br>
+<div class="container">
+    <div class="contenu_moi">
+        <div class="contenu_photo">
+            <img src="images/nicolas2.jpg" class="image" alt="Ma photo">
+        </div>
+        <div class="contenu_biographie">
+            <h2>Nicolas Rambaud</h2>
+            <h5>SWITCH IT</h5>
+            <br>
+            <hr>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis enim, iaculis sed elementum vitae,
+                aliquet eu turpis. Cras quis venenatis dui. Quisque nec malesuada ex. Fusce congue, mauris id tempor
+                suscipit, est lacus tempor nulla, sed porta lorem enim eu nulla. </p>
 
-    <div class="container">
-        
+            <br>
+            <a href="images/CV_Nicolas_Rambaud.pdf" class="contenu_biographie_cv" target="_blank">Télécharger mon cv</a>
+        </div>
     </div>
+</div>
 </body>
