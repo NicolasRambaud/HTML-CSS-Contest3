@@ -48,4 +48,6 @@ Dont :
 
 #### CSS /6
 Dont :
-- Validation du W3C sans erreur /2
+- Validation du W3C sans erreur /2  
+
+### Ce projet à été réalisé par Nicolas Rambaud avec l'aide de Google.
